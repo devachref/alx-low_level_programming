@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo 'enter name file'
-read var
-
-echo '#!/bin/bash' > $var
-chmod +x $var
-vim $var
-
