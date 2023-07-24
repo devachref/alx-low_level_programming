@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-	size_t length = strlen(*s);
+	extern size_t strlen(const char *__s);
 
 	return (length);
 }
