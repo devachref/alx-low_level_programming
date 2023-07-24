@@ -9,7 +9,10 @@
 
 int _strlen(char *s)
 {
-	extern size_t strlen(const char *__s);
+	int counter;
 
-	return (length);
+	for (counter = 0; *n != '\0'; s++)
+		++counter;
+
+	return (counter);
 }
